@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Michael Rivera & Co </title>
+
+
+<style>
+h1 {
+  color:black;
+  font-family: verdana;
+  font-size: 150%;
+}
+p {
+  color: red;
+ 
+  font-size: 90%;
+}
+</style>
+
+</head>
+<body>
+
+<h1 style="background-color:tomato;text-align:center;">Michael Rivera & Co</h1>
+<h2 style="border: 1px solid black;text-align:center;" > Customer Information</h2>
+
+
+
+<form action="/CustomerInfo_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+   <label for="EmailAdd">Email Address:</label><br>
+  <input type="text" id="Email" name="EmailAddress" value="example@gmail.com"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/CustomerInfo_page.php".</p>
+
+</body>
+</html>
